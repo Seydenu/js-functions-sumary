@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Video Summary</title>
+	<style type="text/css">
+		h1 {
+			font-family: cursive;
+		}
+
+		body {
+			background-color: plum;
+		}
+	</style>
+</head>
+<body>
+<h1>JavaScript Functions Explaination</h1>
+
+<p>Functions are one of the most important concepts in JavaScript. A function always takes some type of logic. To create a function, you'll need the key word "function", a prefered name for your function, followed by a parenthesis and also a curly braces. Functions can take in arguments or parameters.</p>
+
+<p>To call a function for it to be executed, you have to re-type the name of the function followed by a parenthesis & enter</p>
+
+<p>To pass a value to a function, you'll have to again go the same way of creating a function but you'll now pass variables in the parenthesis that is after the function's name and the variables should be seperated by a comma. Then call the function and place two values in the parenthesis and enter.</p>
+
+<p>If you dont pass a value to the variable, JavaScript will print "undefined" for that variable.</p>
+
+<p><strong>RETURN</strong>- When you use the return key word, it takes whatever that value is that you're returning and it puts it inside the variable of that function. Another interesting thing about ruturn keyword is that it makes sure no code runs after it.  <strong>console.log</strong> is actually a function on its own.</p>
+
+
+
+<script type="text/javascript">
+	
+// #1) answer -
+
+let day = 3;
+
+switch(day){
+
+case 1:
+	console.log("Monday");
+	break;
+
+case 2:
+	console.log("Tuesday");
+	break;
+
+case 3:
+	console.log("Wednesday");
+	break;
+
+case 4:
+	console.log("Thursday");
+	break;
+
+case 5:
+	console.log("Friday");
+	break;
+
+case 6:
+	console.log("Saturday");
+	break;
+
+case 7:
+	console.log("Sunday");
+	break;
+
+default:
+	console.log("Invalid")
+}
+
+
+// #2) answer -
+
+let age = prompt("What is your age? ");
+
+if (age >= 0 && age <= 17) {
+	console.log("Sorry, you're not eligable to vote")
+}
+
+if (age >= 18) {
+	console.log("Yes, you're eligable to vote")
+}
+
+// #3) answer -
+
+let grade = prompt("What is this student's grade? ");
+
+   if (grade >= 90 && grade <= 100) 
+	{
+    	console.log("The grade is A")
+	}
+
+	if (grade >= 80 && grade <= 89)
+	{
+	    console.log("The grade is B")
+	}
+
+	if (grade >= 70 && grade <= 79)
+	{
+	    console.log("The grade is C")
+	} 
+
+	if (grade >= 60 && grade <= 69)
+	{
+	    console.log("The grade is D")
+	} 
+
+	if (grade < 60)
+	{
+	    console.log("The grade is F") 
+	}
+
+ // #4) answer -
+
+let applicant_age = prompt("What is your age? ");
+
+    if (applicant_age >= 0 && applicant_age <= 17) {
+	   console.log("Sorry, you're not eligable to obtain a driver's liscence")
+    }
+
+    if (applicant_age >= 18) {
+	   console.log("Yes, you're eligable to obtain a driver's liscence")
+    }
+
+    // #5) answer -
+
+let person_age = prompt("What is your age? ");
+
+switch(person_age){
+
+case person_age >= 0 && person_age <= 12:
+	console.log("You're a Child");
+	break;
+
+case person_age >= 13 && person_age <= 19:
+	console.log("You're a Teenager");
+	break;
+
+case person_age >= 20 && person_age <= 35:
+	console.log("You're an Adult");
+	break;
+
+case person_age > 35:
+	console.log("You're a Senior");
+	break;
+
+default:
+	console.log("Invalid");
+} 
+
+</script>
+</body>
+</html>
